@@ -6,8 +6,8 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
- /* выделим красным для подсветки границ*/
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  /* выделим красным для подсветки границ*/
   border: 1px solid red;
 }
 
@@ -19,7 +19,6 @@
   background-color: #f2f2f2;
   display: flex;
   position: relative;
-
 }
 
 .header__title {
@@ -84,7 +83,6 @@
   top: 30px;
   left: 64px;
   z-index: 99;
-
 }
 
 .description {
@@ -107,7 +105,7 @@
   color: #2f80ed;
   width: 175px;
   font-size: 18px;
-  line-height: 1,2;
+  line-height: 1, 2;
   border: 1px solid red;
   margin: 0;
 }
@@ -147,11 +145,10 @@
   width: 60%;
   font-weight: 600;
   font-size: 60px;
-  line-height: 1,15;
+  line-height: 1, 15;
   border: 1px solid red;
   display: flex;
   justify-content: center;
-
 }
 
 .section-subtitle {
@@ -176,7 +173,6 @@
   justify-content: space-between;
   width: 1100px;
   flex-direction: auto;
-
 }
 .table__cell {
   width: 250px;
@@ -189,7 +185,7 @@
   padding-bottom: 20px;
   font-weight: normal;
   font-size: 18px;
-  line-height: 1,2;
+  line-height: 1, 2;
 }
 .table__text:last-child {
   padding: 0;
@@ -200,7 +196,7 @@
   padding-bottom: 20px;
   font-weight: 600;
   font-size: 24px;
-  line-height: 1,15;
+  line-height: 1, 15;
   border: 1px solid red;
 }
 
@@ -220,7 +216,7 @@
   text-align: center;
   font-weight: 600;
   font-size: 120px;
-  line-height: 1,15;
+  line-height: 1, 15;
   border: 1px solid red;
 }
 
@@ -249,7 +245,7 @@
 
 .kaufman {
   overflow: hidden;
-  background-color:  #1f1f1f;
+  background-color: #1f1f1f;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -258,7 +254,7 @@
 }
 
 .table_theme_dark {
-margin-bottom: 90px;
+  margin-bottom: 90px;
 }
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -324,7 +320,6 @@ margin-bottom: 90px;
   flex-direction: column;
   border: 1px solid red;
   justify-content: start;
-
 }
 .footer__column-heading {
   margin: 0;
@@ -349,9 +344,7 @@ margin-bottom: 90px;
 .footer__social-icon {
   width: 16px;
   height: 16px;
-
 }
 .footer__social {
   text-decoration: none;
 }
-
