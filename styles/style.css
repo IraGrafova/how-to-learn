@@ -22,6 +22,7 @@
 }
 
 .header__title {
+  margin: 0;
   font-size: 102px;
   line-height: 96px;
   font-weight: 600;
@@ -34,6 +35,7 @@
 }
 
 .header__subtitle {
+  margin: 0;
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
@@ -57,7 +59,7 @@
 }
 
 .header__main-illustration {
-  width: 768px;
+  width: 765px;
   height: 608px;
   z-index: 1;
   position: absolute;
@@ -105,7 +107,7 @@
   color: #2f80ed;
   width: 175px;
   font-size: 18px;
-  line-height: 1, 2;
+  line-height: 1.2;
   border: 1px solid red;
   margin: 0;
 }
@@ -145,7 +147,7 @@
   width: 60%;
   font-weight: 600;
   font-size: 60px;
-  line-height: 1, 15;
+  line-height: 1.15;
   border: 1px solid red;
   display: flex;
   justify-content: center;
@@ -172,7 +174,6 @@
   flex-wrap: wrap;
   justify-content: space-between;
   width: 1100px;
-  flex-direction: auto;
 }
 .table__cell {
   width: 250px;
@@ -180,30 +181,31 @@
   padding-top: 60px;
 }
 
+.table__heading {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.15;
+  border: 1px solid red;
+}
 .table__text {
   margin: 0;
   padding-bottom: 20px;
   font-weight: normal;
   font-size: 18px;
-  line-height: 1, 2;
+  line-height: 1.2;
 }
 .table__text:last-child {
   padding: 0;
-}
-
-.heading {
-  margin: 0;
-  padding-bottom: 20px;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1, 15;
-  border: 1px solid red;
 }
 
 .feynman {
   background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
   background-position: bottom left;
+  background-size: 867px 637px;
   height: 890px;
   position: relative;
   border: 1px solid red;
@@ -216,7 +218,7 @@
   text-align: center;
   font-weight: 600;
   font-size: 120px;
-  line-height: 1, 15;
+  line-height: 1.15;
   border: 1px solid red;
 }
 
@@ -225,7 +227,7 @@
   width: max-content;
   font-weight: normal;
   font-size: 36px;
-  line-height: 34px;
+  line-height: 51px;
   border: 1px solid red;
 }
 
@@ -267,13 +269,13 @@
   z-index: 1;
 }
 
-.table__section-title_theme_dark {
+.section-title_theme_dark {
   color: white;
   padding-top: 90px;
   z-index: 1;
 }
 
-.table__section-subtitle_theme_dark {
+.section-subtitle_theme_dark {
   color: white;
   z-index: 1;
 }
@@ -311,7 +313,8 @@
 .logo_place_footer {
   background-image: url(../images/logo_place_footer.svg);
 }
-.logo_place_footer {
+.footer__author {
+  margin: 18px 0;
   font-size: 18px;
   line-height: 25px;
 }
@@ -334,10 +337,16 @@
 
 .footer__column-links {
   padding: 0;
+  border: 1px solid red;
   list-style: none;
+
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+.footer__column-link {
+  padding: 0;
   text-decoration: none;
   color: white;
-  border: 1px solid red;
   font-size: 18px;
   line-height: 30px;
 }
