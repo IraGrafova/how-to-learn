@@ -1,7 +1,7 @@
-.khan__author {
-  margin: 0;
-  padding: 0;
+.khan__buy-link {
   font-weight: normal;
   font-size: 30px;
   line-height: 42px;
+  text-decoration: none;
+  color: #2f80ed;
 }
